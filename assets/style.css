@@ -244,6 +244,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+
+
+
+/********** Mode reponsive **********/
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -259,6 +264,7 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
+
 
 @media all and (max-width: 1000px) {
 	#about{
@@ -319,6 +325,7 @@ input[type="submit"] {
 	}
 }
 
+
 @media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
@@ -353,4 +360,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
