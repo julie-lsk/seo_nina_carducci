@@ -12,6 +12,10 @@ body {
 	outline-offset: 2px;
 	box-shadow: 0 0 15px 10px orangered;
 }
+.d-block /* Slider - améliore le temps de chargement de la page */
+{
+	overflow: hidden;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
