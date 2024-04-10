@@ -75,7 +75,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	max-width: 519px;
 }
 #about-me {
 	flex: 2
@@ -245,6 +245,40 @@ form {
 	width: 70%;
 	align-items: flex-start;
 }
+
+
+/********** Footer **********/
+
+footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+#infos
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+p[itemprop="name"], #copyright
+{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.bold
+{
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+
 
 @media (max-width: 1024px)
 {
